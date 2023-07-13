@@ -3,7 +3,7 @@ import socket
 import threading
 
 
-host = 'ENTER YOUR IP'
+host = '10.130.0.0'
 port = 33333
 
 

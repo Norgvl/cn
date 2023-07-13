@@ -6,7 +6,7 @@ nickname = input("Choose your nickname: ")
 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('ENTER YOUR IP SERVER ADDRESS', 333333))
+client.connect(('10.130.0.0', 333333))
 
 
 def receive():
